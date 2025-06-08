@@ -15,8 +15,22 @@ The automations include complete flows for:
 
 ![ezgif-1c766207e0fa87](https://github.com/user-attachments/assets/8493d362-8c81-4abf-89a7-81249b6dd86a)
 
-The tests are executed on **[automationexercise.com](https://automationexercise.com)**, simulating a real e-commerce simulation for QA Practice.
+The tests are executed on **[automationexercise.com](https://automationexercise.com)**, simulating a real e-commerce for QA Practice.
 
+## How to clone and execute locally
+1. Clone this repository:
+   git clone https://github.com/luiismuro/automation-project-cypress.git
+2. Go to the respective folder on your terminal:
+   cd automation-project-cypress
+3. Install dependencies
+- Node.js installed on your PC
+- on your terminal, type: **npm install**
+- open cypress GUI: **npx cypress open**
+4. Click on the respective test to run. for instance: automation-login.cy.js / automation-signup.cy.js / automation-cart.cy.js
+
+## Headless mode
+to run an specific test without opening browser:
+- **npx cypress run --spec "cypress/e2e/automation-login.cy.js"**
 ---
 
 ## 🧰 Technologies
@@ -26,3 +40,6 @@ The tests are executed on **[automationexercise.com](https://automationexercise.
 - JavaScript
 
 ---
+Feel free to suggest improvements.
+
+Thanks!
