@@ -1,7 +1,7 @@
 # Test Automation - Cypress
 
-I've created this test flow in order to enhance my automation skills in e2e tests using **Cypress** tool.
-The automations include complete flows for:
+**I've created this test flow in order to enhance my automation skills in e2e tests using **Cypress** tool.
+The automations include complete flows for:**
 
 ## - User Signup
  
