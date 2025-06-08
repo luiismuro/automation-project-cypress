@@ -1,0 +1,9 @@
+# ignoring dependencies
+node_modules/
+
+# ignoring videos/screenshots auto generated
+cypress/videos/
+cypress/screenshots/
+
+# ignoring temp files
+npm-debug.log
